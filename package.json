@@ -4,7 +4,7 @@
   "description": "A partner automation discord bot.",
   "main": "bot.js",
   "scripts": {
-    "start": "cd src",
+    "start": "cd src && node -q bot.js",
     "lint": "cd src && eslint --fix .",
     "docs": "cd src && jsdoc -r --readme ../.github/README.md -d ../docs ."
   },
